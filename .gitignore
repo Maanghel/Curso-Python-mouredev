@@ -1,0 +1,8 @@
+# Ignorar el entorno virtual
+.venv/
+
+# Ignorar configuraciones de IDE
+.vscode/
+
+# Ignorar Cache
+__pycache__
