@@ -48,12 +48,12 @@ print(50 - 22)
 print(8 * 7)
 print(100 / 20)
 
-remainder = 37 % 5
+remainder = 37 % 5 # Retorna el residuo de una division
 print(f"\nEl residuo de la division de 37 entre 5 es {remainder}")
 
-print("\nEl " + str(7) + " es mi número favorito")
+print("\nEl " + str(7) + " es mi número favorito") # Concatena una serie de strings, donde se uso la funcion str para convertir el 7 en uno
 
-print(f"\n", "Python" * 10)
+print(f"\n", "Python" * 10) # Multiplica un string por un valor
 
 a = 12
 b = 8
@@ -63,10 +63,10 @@ print(f"\n¿La variable a es mayor que la variable b? {a_is_mayor}")
 print(f"\n¿Cual palabra tiene mayor orden alfabetico (apple > banana)? {"apple" > "banana"}")
 print(f"¿Cual palabra tiene mayor orden alfabetico (apple < banana)? {"apple" < "banana"}")
 
-print("\n", 10 > 5 and 10 < 20)
+print("\n", 10 > 5 and 10 < 20) # Hace uso del operador logico AND donde todas las condiciones deben de ser TRUE para devolver TRUE
 
-print("\n", 7 < 3 or 7 > 5)
+print("\n", 7 < 3 or 7 > 5) # Hace uso del operador logico OR donde con que una condicion sea TRUE devuelve TRUE
 
-print("\n", not (15 > 20))
+print("\n", not (15 > 20)) # Hace uso del operador logico NOT donde invierte el resultad
 
 print("\n", (5 * 3) + 2 > 10 and (5 * 3) + 2 < 20)

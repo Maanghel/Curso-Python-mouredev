@@ -32,11 +32,11 @@
 """
 
 text = "Aprendiendo Python"
-print(len(text))
+print(len(text)) # Nos indica cuantos caracteres tiene la variable
 
-print("\nHola " + "Python")
+print("\nHola " + "Python") # Concatena dos strings
 
-new_text = "\nLinea\nde\nSalto"
+new_text = "\nLinea\nde\nSalto" # Hace uso de la secuencia de escape \n la cual crea una nueva linea
 print(new_text)
 
 first_name = "Manuel"
@@ -44,7 +44,7 @@ last_name = "Gamez"
 age = 29
 print(f"\nFirst name = {first_name}\nLast name = {last_name}\nAge = {age}")
 
-a, b, c, d, e, f = "Python"
+a, b, c, d, e, f = "Python" # Empaqueta todo el string en una serie de variables
 print(f"\n{a}")
 print(b)
 print(c)
@@ -53,16 +53,16 @@ print(e)
 print(f)
 
 other_text = "Programacion"
-print(f"\nObteniendo los caracteres desde la posicion 3 hasta la 7 de la palabra 'Programacion':\n{other_text[3:8]}")
+print(f"\nObteniendo los caracteres desde la posicion 3 hasta la 7 de la palabra 'Programacion':\n{other_text[3:8]}") # Se usa el slicing para obtener ciertos valores del texto
 
 reverse_text = "Python"
-print(f"\n{reverse_text[::-1]}")
+print(f"\n{reverse_text[::-1]}") # Invierte el string
 
 upper_text = "aprendiendo python"
-print(f"\n{upper_text.upper()}")
+print(f"\n{upper_text.upper()}") # Convierte en mayusculas un string
 
 count_text = "Programacion en Python"
-print(f"\n{upper_text.count("n")}")
+print(f"\n{upper_text.count("n")}") # Cuenta la cantidad de ocasiones que se encuentra un valor
 
 numeric_text = "12345"
-print(f"\n{numeric_text.isnumeric()}")
+print(f"\n{numeric_text.isnumeric()}") # Verifica si la variable es numerica
