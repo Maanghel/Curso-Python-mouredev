@@ -45,7 +45,7 @@ print(f"\n{my_dict}")
 del my_dict["country"] # Elimina una key:value
 print(f"\n{my_dict}")
 
-my_other_dict = {1: 1, 2: 4, 3: 27, 4: 256, 5: 3125}
+my_other_dict = {x: x ** 2 for x in range(1, 6)}
 print(f"\n{my_other_dict}")
 
 my_new_dict = {"name": "Brais", "age": 37, "country": "Galicia"}
