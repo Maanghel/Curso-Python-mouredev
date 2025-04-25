@@ -43,7 +43,7 @@ if number > 0:
 elif number < 0:
     print(f"El numero {number} es negativo.")
 else:
-    print(f"Es numero es 0")
+    print(f"El numero es 0.")
 
 age = int(input(f"\nIngrese su edad: "))
 if age >= 18:
