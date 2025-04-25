@@ -94,3 +94,46 @@ class Student:
     def calculate_average(self):
         return sum(self.notes) / len(self.notes)
 
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.balance = balance
+    
+    def deposit(self, amount):
+        self.balance += amount
+        
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Fondos insuficientes.")
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def calculate_distance(self, other_point):
+        distance_x = abs(self.x - other_point.x)
+        distance_y = abs(self.y - other_point.y)
+        return (distance_x ** 2 + distance_y ** 2) ** 0.5
+
+class Employee:
+    def __init__(self, name, hourly_wage, hours_worked):
+        self.name = name
+        self.hourly_wage = hourly_wage
+        self.hours_worked = hours_worked
+    
+    def calculate_total(self):
+        return self.hourly_wage * self.hours_worked
+
+class Store:
+    def __init__(self):
+        self.inventory = []
+    
+    def add_product(self, product):
+        self.inventory.append(product)
+    
+    def show_inventory(self):
+        for product in self.inventory:
+            print(product)
