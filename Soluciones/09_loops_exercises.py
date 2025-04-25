@@ -38,9 +38,9 @@ while count <= 10:
     print(count)
     count += 1
 
-list = [10, 20, 30, 40, 50]
+my_list = [10, 20, 30, 40, 50]
 print()
-for element in list:
+for element in my_list:
     print(element)
 
 count = 1
