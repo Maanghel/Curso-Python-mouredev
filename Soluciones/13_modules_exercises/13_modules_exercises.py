@@ -71,3 +71,17 @@ from car_module import Car
 my_car = Car("Chevrolet", "Malibu", 2004)
 print(f"\n{my_car.information()}")
 
+from archives import read_file, write_file
+write_file("ejemplo.txt", "Hola a todos!")
+print(f"\n{read_file("ejemplo.txt")}")
+
+from statisticss import calculate_average, calculate_median
+print(f"\n{calculate_average(1, 2, 3, 4, 5, 6, 7)}")
+print(calculate_median(10, 5, 6, 7, 2, 3, 4, 8, 9))
+
+from count_words import words_count
+print(f"\n{words_count("Python Python Hola Python", "Python")}")
+
+from dates import date_difference, current_date
+print(f"\n{current_date()}")
+print(date_difference("01-02-2024", "05-02-2024"))
