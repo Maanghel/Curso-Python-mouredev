@@ -6,7 +6,7 @@ Este repositorio contiene mis soluciones personales a los ejercicios propuestos 
 1. [🎯 Descripción](#-Descripción)
 1. [📁 Estructura del Proyecto](#-estructura-del-proyecto)
 2. [🛠️ Tecnologías y Herramientas Usadas](#️-tecnologías-y-herramientas-usadas)
-3. [📜 Licencia](#-Licencia)
+3. [📜 Licencia](#-licencia)
 
 ## 🎯 Descripción
 
